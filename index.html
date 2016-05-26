@@ -27,24 +27,24 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Logging</a></li>
-				<li><a href="#">Tokens</a></li>
-				<li><a href="#cfgsvr">Configuration</a></li>
-				<li><a href="#">Service Catalog</a></li>
-				<li><a href="#">EFS</a></li>
-				<li><a href="#">Utilities</a></li>
+				<li><a href="#divLogging">Logging</a></li>
+				<li><a href="#divTokenServer">Tokens</a></li>
+				<li><a href="#divConfig">Configuration</a></li>
+				<li><a href="#divCatalog">Service Catalog</a></li>
+				<li><a href="#divEfs">EFS</a></li>
+				<li><a href="#divUtils">Utilities</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<div id="cfgsvr"></div>
+	<div id="divConfig"></div>
 	<div class="panel">
 		<div class="panel-heading">
 			<h1 class="text-center"><span class="fa fa-sitemap"></span><br/><span style="font-size:smaller">Centralized Configuration Server</span></h1>
 		</div>
 		<div class="panel-body" style="margin-top:-15px;padding-top:0px;">
 			<div class="col-sm-7 col-sm-push-3 lead" style="text-align:justify">
-			  Allows development and operation teams to view and configure applications hosted across multiple servers. Helps reduce the problems associated with adding, removing, and updating values across multiple servers and/or multiple enviroments.
+			  Allows development and operation teams to view and configure applications hosted across multiple servers. Reduces problems associated with adding, removing, and updating values across multiple servers and/or multiple enviroments.  Helps prevent premature deployemnt or misdeployment of settings.  Designed to support environments where critical settings are affected by regulatory compliance concerns.
 			</div>
 			<div class="row"> </div>
 			<div class="col-sm-7 col-sm-push-3" style="list-style:square">
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="panel">
+	<div class="panel" id="divCatalog">
 		<div class="panel-heading">
 			<h1 class="text-center"><span class="fa fa-files-o"></span><br/><span style="font-size:smaller">REST Service Catalog</span></h1></div>
 		<div class="panel-body" style="margin-top:-15px;padding-top:0px;">
@@ -89,7 +89,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="panel">
+	<div class="panel" id="divLogging">
 		<div class="panel-heading">
 			<h1 class="text-center"><span class="fa fa-pencil"></span><br><span style="font-size:smaller">Logging Server</span></h1></div>
 		<div class="panel-body" style="margin-top:-15px;padding-top:0px;">
@@ -113,7 +113,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="panel">
+	<div class="panel" id="divTokenServer">
 		<div class="panel-heading">
 			<h1 class="text-center"><span class="fa fa-cubes"></span><br><span style="font-size:smaller">Token Server</span></h1></div>
 		<div class="panel-body" style="margin-top:-15px;padding-top:0px;">
@@ -138,7 +138,7 @@
 		</div>
 	</div>
 
-	<div class="panel">
+	<div class="panel" id="divEfs">
 		<div class="panel-heading">
 			<h1 class="text-center"><span class="fa fa-key"></span><br/><span style="font-size:smaller">Encrypted File Server</span></h1></div>
 		<div class="panel-body" style="margin-top:-15px;padding-top:0px;">
@@ -167,7 +167,7 @@
 		</div>
 	</div>
 	
-	<div class="panel">
+	<div class="panel" id="divUtils">
 		<div class="panel-heading">
 	<h1 class="text-center"><span class="fa fa-wrench"></span><br/><span style="font-size:smaller">Helpful Utilities</span></h1></div>
 		<div class="panel-body" style="margin-top:-15px;padding-top:0px;">
